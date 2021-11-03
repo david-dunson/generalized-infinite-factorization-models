@@ -1,5 +1,6 @@
 #---------------------------------------------------------------------------------------------#
-# ---- SIS with Gaussian and missing data ----
+# ---- SIS with Gaussian and missing data for covariate matrix ----
+# structured factorization of a covariate matrix Y in the model y = b Y + eps
 # Copyright: Lorenzo Schiavon 2021,
 # Licensed under Creative Commons Attribution-NonCommercial 4.0
 #---------------------------------------------------------------------------------------------#
