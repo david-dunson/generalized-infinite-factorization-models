@@ -5,7 +5,14 @@ Bayesian inference of Generalized Infinite Factorization models with Structured 
 
 The repository includes R functions to perform Bayesian inference under the Structured Increasing Shrinkage model presented in the following paper:
 Schiavon, L., Canale, A., Dunson, D.B. (in press) Generalized infinite factorization models, Biometrika.
-
 <a rel="paper" href="https://arxiv.org/abs/2103.10333">Link to the pre-print version of the paper</a>
   
-In particular, the Gibbs sampler allows for Gaussian distributed and possibly missing data.
+File Schiavon_SISGaussian.R refers to the application of the structured increasing shrinkage prior in case of a Gaussian data matrix.
+
+File Schiavon_SIScovariatesRegression.R refers to the application of the structured increasing shrinkage prior when we are interested in factorize a covariate matrix in a linear regression model. 
+In particular, it refers to the paper:
+Schiavon, L., Canale, A. (2021) Bayesian regularized regression of football tracking data through structured factor models, in Book of Short Papers SIS 2021 (Editors: Pernal, C., Salvati, N. and Schirippa Spagnolo, F.), ISBN: 9788891927361.
+<a rel="paper" href="https://air.unimi.it/bitstream/2434/851706/7/pearson-sis-book-2021-parte-1.pdf#page=535">Link to the paper</a>
+
+
+All files include a function for the MCMC sampler and a function to estimate a meaningful posterior summary of the loadings matrix according to what discussed in Section 3.3 of Schiavon, Canale and Dunson (in press).
