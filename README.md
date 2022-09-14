@@ -4,7 +4,7 @@
 Bayesian inference of Generalized Infinite Factorization models with Structured Increasing Shrinkage prior
 
 The repository includes R functions to perform Bayesian inference under the Structured Increasing Shrinkage model presented in the following paper:
-Schiavon, L., Canale, A., Dunson, D.B. (in press) Generalized infinite factorization models, Biometrika.
+Schiavon, L., Canale, A., Dunson, D.B. (2022) Generalized infinite factorization models, Biometrika 109 (3), 817-835.
 <a rel="paper" href="https://arxiv.org/abs/2103.10333">Link to the pre-print version of the paper</a>
   
 File Schiavon_SISGaussian.R refers to the application of the structured increasing shrinkage prior in case of a Gaussian data matrix.
